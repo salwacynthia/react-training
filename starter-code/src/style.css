@@ -1,0 +1,13 @@
+.Idcard{
+    border: solid black;
+    display: flex;
+    margin: 30px;
+}
+
+.Idcard > img {
+    height: 150px;
+}
+.Greetings{
+    border: 1px solid black;
+    margin: 10px;
+}
