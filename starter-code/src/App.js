@@ -4,7 +4,9 @@ import Greetings from './Greetings'
 import Random from './Random'
 import Boxcolor from './Boxcolor'
 import CreditCard from './Creditcard'
-
+// import LikeButton from './Likebutton'
+import NumbersTable from './NumbersTable'
+import Facebook from './Facebook'
 
 class App extends Component {
   render() {
@@ -76,6 +78,13 @@ class App extends Component {
   color="white"
    />
   </div>
+  <h1>NumbersTable</h1>
+  <NumbersTable limit={12} />
+
+  <h1>Facebook</h1>
+  <Facebook />
+
+  
  </div>
 );
   }
